@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="cm" placeholder="cm">
+<button onclick="convert()">Convert</button>
+<p id="res"></p>
+
+<script>
+function convert(){
+  res.innerText = (cm.value/100) + " m";
+}
+</script>
+</body>
+</html>
